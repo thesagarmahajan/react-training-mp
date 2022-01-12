@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MyFirstComponent from './MyFirstComponent';
+import CreateElement from './CreateElement';
+import CreateElementTableExample from './CreateElementTableExample';
+import BoostrapWithClassComponent from './BootstrapWithClassComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BoostrapWithClassComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
